@@ -12,4 +12,4 @@ Zadanie 1 Docker
 
 Kod: repozytorium - Ebiznes_docker
 
-[DockerHub](https://hub.docker.com/repository/docker/michal2wilk/ubuntu-python-kotlin/general)
+[DockerHub](https://hub.docker.com/r/michal2wilk/ubuntu-python-kotlin)
