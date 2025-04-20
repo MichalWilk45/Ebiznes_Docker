@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: my-app-container
+    ports:
+      - "8080:8080"  # Mapowanie portu (jeśli aplikacja nasłuchuje na porcie 8080)
+    volumes:
+      - .:/app  # Mapowanie katalogu projektu do kontenera (jeśli chcesz synchronizować zmiany)
+    command: ["gradle", "run"]  # Uruchomienie aplikacji (lub innej komendy)
